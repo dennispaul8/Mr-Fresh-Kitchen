@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import './App.css'
+import Navbar from './components/navbar/Navbar'
+import { Hero } from './components/hero/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     
+     {/* <Navbar/> */}
 
-     <div>
-       <Button>Click me</Button>
-     </div>
+      <Hero/>
  
     </>
   )
