@@ -1,12 +1,4 @@
-*{
-    margin: 0 auto;
-    padding: 0;
-}
 
-body{
-    margin: 0;
-
-}
 
 .hero-sec{
     display: flex;
@@ -15,13 +7,13 @@ body{
     padding-top: 100px;
     background-color: #fbefe27a;
     margin-top: 30px;
-    padding-left: 160px;
 
 }
 
 .hero-sec-txt{
-    width: 50%;
+    width: 40%;
     height: 300px;
+    margin-left: 150px;
 
 }
 .hero-sec-txt h1{
@@ -29,6 +21,7 @@ body{
     text-align: left;
     font-size: 60px;
     padding-bottom: 30px;
+    line-height: 60px;
 }
 
 .hero-sec-txt p{
@@ -90,7 +83,7 @@ body{
 
 
 .hero-sec-img--cont{
-    margin-right: 350px;
+    margin-right: 150px;
     margin-top: -42px;
 }
 
