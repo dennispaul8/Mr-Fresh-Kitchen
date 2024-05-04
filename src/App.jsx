@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import { Hero } from './components/hero/Hero'
 import { About } from './components/about/About'
 import { Menu } from './components/menu/Menu'
+import { Chef } from './components/chef/Chef'
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
       <About/>
 
       <Menu/>
+
+      <Chef/>
  
     </>
   )
