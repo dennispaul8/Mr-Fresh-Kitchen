@@ -5,6 +5,7 @@ import { Hero } from './components/hero/Hero'
 import { About } from './components/about/About'
 import { Menu } from './components/menu/Menu'
 import { Chef } from './components/chef/Chef'
+import { Socials } from './components/socials/Socials'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
       <Menu/>
 
       <Chef/>
+
+      <Socials/>
  
     </>
   )
