@@ -6,6 +6,7 @@ import { About } from './components/about/About'
 import { Menu } from './components/menu/Menu'
 import { Chef } from './components/chef/Chef'
 import { Socials } from './components/socials/Socials'
+import { Footer } from './components/footer/Footer'
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
       <Chef/>
 
       <Socials/>
+
+      <Footer/>
  
     </>
   )
