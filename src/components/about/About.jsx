@@ -5,7 +5,7 @@ export const About =()=>{
 
     return(
         <>
-            <div className="about-sec">
+            <div id='about' className="about-sec">
                 <div className="about-img-cont">
                      <img className='about-first-img' src={logo} alt="" />
                      <img className='about-second-img' src={logo} alt="" />
@@ -20,7 +20,7 @@ export const About =()=>{
                             Tempore ducimus <br />
                             consectetur est unde officiis optio natus alias nam?
                         </p>
-                    <button className='about-btn'>Get Started</button>
+                    <button className='about-btn'>Explore Our Story</button>
                 </div>
             </div>
         </>

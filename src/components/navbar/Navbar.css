@@ -1,0 +1,36 @@
+.nav-cont{
+    display: flex;
+    justify-content: center;
+    background-color: #fbefe27a;
+    align-items: center;
+
+
+}
+
+.nav-txt{
+    width: 60%;
+}
+
+.nav-txt a{
+    color: black;
+    padding-left: 20px;
+    font-size: 18px;
+    
+}
+.nav-txt a:hover{
+    color: #f3873a;
+    transition: .2s all;
+}
+
+.nav-img{
+    width: 20%;
+   margin-left: 130px;
+    padding-top: 10px;
+}
+
+.nav-img img{
+   width: 90px;
+   height: 90px;
+   border-radius: 100px;
+   margin-left: 30px;
+}

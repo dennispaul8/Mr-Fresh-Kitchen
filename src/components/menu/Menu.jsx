@@ -1,5 +1,5 @@
 import './Menu.css'
-import logo from '../../../public/mr-fresh-logo.jpeg'
+import { Link } from 'react-router-dom'
 
 
 export const Menu = () => {
@@ -54,8 +54,8 @@ export const Menu = () => {
 
     return (
         <>
-            <div className="menu-sec">
-                <h2>Popular Items</h2>
+            <div id='menu' className="menu-sec">
+                <h2>Our Menu</h2>
 
                 <div className="menu-list">
                     {list.map((info, index) =>
@@ -69,7 +69,12 @@ export const Menu = () => {
 
                 )}
                 </div>
-                <button className='seemore-btn'>See More</button>
+                
+                <Link to='/menulist'>
+                      <button className='seemore-btn'>See More</button>
+                </Link>
+
+                
             </div>
         </>
     )
