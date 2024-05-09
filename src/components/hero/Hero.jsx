@@ -11,7 +11,7 @@ export const Hero = () => {
         <div className="hero-sec">
             <div className="hero-sec-txt">
                 <h1>Get in the holiday
-                    mood, donate <br /> 
+                    mood,donate <br /> 
                     some food</h1>
                 <p>Our job is to fill your tummy with delicious food.</p>
                 

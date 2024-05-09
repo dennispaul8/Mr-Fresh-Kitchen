@@ -1,0 +1,81 @@
+
+.menulist-cont{
+    background-color: #fbefe27a;
+    padding-bottom: 100px;
+}
+.menulist-cont--heading{
+    background-image: url('../../../public/svg-bg.png') ;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.menulist-cont--heading h2{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 130px;
+}
+.menulist-cont img{
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menulist-top{
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.breakfast-cont ul{
+    list-style-type: none;
+ }
+ .breakfast-cont span{
+    margin-left: 10px;
+ }
+
+ .soups-cont ul{
+    list-style-type: none;
+ }
+ .soups-cont span{
+    margin-left: 10px;
+ }
+
+.jnd-cont ul{
+   list-style-type: none;
+}
+.jnd-cont span{
+    margin-left: 10px;
+ }
+
+
+
+ .menulist-bottom{
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.main-meal-cont ul{
+    list-style-type: none;
+}
+.main-meal-cont span{
+    margin-left: 10px;
+}
+
+.snacks-cont ul{
+    list-style-type: none;
+}
+.snacks-cont span{
+    margin-left: 10px;
+}
+
+.others-cont ul{
+    list-style-type: none;
+}
+.others-cont span{
+    margin-left: 10px;
+}
