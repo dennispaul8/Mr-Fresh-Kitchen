@@ -79,3 +79,28 @@
 .others-cont span{
     margin-left: 10px;
 }
+
+.back-home-btn{
+    border-radius: 100px;
+    border: 1px solid transparent;
+    padding: 1em 3em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #f3873a;
+    border-color: #f3873a;
+}
+.back-home-btn:hover{
+    border-color: #ffffff;
+    background-color: #f3873a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: rgb(255, 255, 255);
+    transition: ease-in-out .3s;
+}
+.back-home-btn--cont{
+    text-align: center;
+    margin-top: 30px;
+}

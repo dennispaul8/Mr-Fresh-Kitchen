@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../../../public/mr-fresh-logo.jpeg'
+import hero_img from '../../../public/hero-img.png'
 import './Hero.css'
 // import { Button } from "../ui/button"
 
@@ -22,7 +22,7 @@ export const Hero = () => {
                     </div>
             </div>
                 <div className="hero-sec-img--cont">
-                     <img className='hero-sec-img' src={logo} alt="" />
+                     <img className='hero-sec-img' src={hero_img} alt="" />
                 </div>
             </div>
         

@@ -1,6 +1,10 @@
 import './MenuList.css'
+import { Link } from 'react-router-dom'
 import bg from '../../../public/svg-bg.png'
+
+
 export const MenuList =()=>{
+    
 
 return(
     <>
@@ -103,8 +107,15 @@ return(
                     <li><i class="bi bi-egg-fried"></i><span>Spicy snail</span></li>
                 </ul>
                </div>
-               
+              
             </div>
+             
+             <div className='back-home-btn--cont' >
+                 <Link to='/'>
+                      <button className='back-home-btn'>Back to Home</button>
+                </Link>
+             </div>
+            
         </div>
     </>
 )
