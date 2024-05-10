@@ -1,5 +1,6 @@
 import './About.css'
-import logo from '../../../public/mr-fresh-logo.jpeg'
+import wine_glass from '../../../public/wine-glass.jpg'
+import kitchen_dish from '../../../public/kitchen-dish.jpg'
 
 export const About =()=>{
 
@@ -7,8 +8,8 @@ export const About =()=>{
         <>
             <div id='about' className="about-sec">
                 <div className="about-img-cont">
-                     <img className='about-first-img' src={logo} alt="" />
-                     <img className='about-second-img' src={logo} alt="" />
+                     <img className='about-first-img' src={wine_glass} alt="" />
+                     <img className='about-second-img' src={kitchen_dish} alt="" />
                 </div>
 
                 <div className="about-text">
