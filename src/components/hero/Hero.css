@@ -2,7 +2,8 @@
 
 .hero-sec{
     display: flex;
-    height: 500px;
+    justify-content: space-between;
+    height: 550px;
     width: 100%;
     padding-top: 50px;
     /* background-color: #fbefe27a; */
@@ -12,9 +13,11 @@
 }
 
 .hero-sec-txt{
-    width: 40%;
-    height: 300px;
+    width: 50%;
+    height: 340px;
     margin-left: 150px;
+    /* border: 1px solid red; */
+    /* padding-left: 100px; */
 
 }
 .hero-sec-txt h1{
@@ -23,6 +26,7 @@
     font-size: 60px;
     padding-bottom: 30px;
     line-height: 60px;
+    font-weight: 700;
 }
 
 .hero-sec-txt p{
@@ -39,26 +43,6 @@
     justify-content: space-between;
 }
 
-.getstarted-btn{
-    border-radius: 100px;
-    border: 1px solid transparent;
-    padding: 1em 3em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #f3873a;
-    cursor: pointer;
-    transition: border-color 0.25s;
-    color: white;
-}
-.getstarted-btn:hover{
-    border-color: #f3873a;
-    background-color: #ffffff;
-    cursor: pointer;
-    transition: border-color 0.25s;
-    color: #f3873a;
-    transition: ease-in-out .3s;
-}
 
 .seemenu-btn{
     border-radius: 100px;
@@ -92,4 +76,62 @@
     margin-top: -50px;
     width: 100%;
     height: 500px;
+}
+
+
+@media (max-width:600px){
+
+    .hero-sec{
+        height: 400px;
+        width: 100%;
+        padding-top: 50px;
+        background-color: #fbefe27a;
+        flex-direction: column;
+    }
+
+    .hero-sec-txt{
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        margin-left: 1px;
+    }
+    .hero-sec-txt h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .hero-sec-txt p{
+        color: rgb(156, 154, 154);
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        width: 70%;
+    }
+    
+    .hero-button{
+        text-align: center;
+        justify-content: center;
+        display: flex
+    }
+    
+    .seemenu-btn{
+        border-radius: 100px;
+        border: 1px solid transparent;
+        padding: 0.5em 1em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #ffffff;
+        cursor: pointer;
+        color: #f3873a;
+        border-color: #f3873a;
+    
+    }
+    
+    .hero-sec-img {
+       display: none;
+    }
 }

@@ -62,3 +62,52 @@
     font-size: 20px;
     padding-bottom: 25px;
  }
+
+
+ @media(max-width:600px){
+
+    .about-sec{
+        width: 100%;
+        height: 400px;
+        padding-top: 30px;
+    }
+
+    .about-btn--cont{
+       text-align: center;
+    }
+    
+    .about-btn{
+        border-radius: 100px;
+        border: 1px solid transparent;
+        padding: 0.7em 1em;
+        font-size: 0.8em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #f3873a;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .about-img-cont{
+       display: none;
+    }
+  
+    
+    .about-text{
+        width: 100%;
+    }
+    .about-text h2{
+       font-size: 25px;
+       padding-bottom: 25px;
+       text-align: center;
+       line-height: 38px;
+    }
+    .about-text p{
+        font-size: 16px;
+        padding-bottom: 25px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+     }
+    
+ }

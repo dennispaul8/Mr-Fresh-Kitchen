@@ -104,3 +104,138 @@
     text-align: center;
     margin-top: 30px;
 }
+
+
+@media (max-width:600px){
+
+
+    .menulist-cont{
+        background-color: #fbefe27a;
+        padding-bottom: 100px;
+    }
+    .menulist-cont--heading{
+        background-image: url('../../../public/svg-bg.png') ;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .menulist-cont--heading h2{
+      color: white;
+      text-align: center;
+      font-size: 25px;
+      padding-top: 130px;
+    }
+    .menulist-cont img{
+        width: 100%;
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .menulist-top{
+        margin-top: 30px;
+        text-align: left;
+        flex-direction: column;
+    }
+    
+    .breakfast-cont h2{
+        text-align: center;
+    }
+    .breakfast-cont ul{
+        list-style-type: none;
+        padding-bottom: 20px;
+
+     }
+     .breakfast-cont span{
+        margin-left: 10px;
+     }
+    
+     .soups-cont h2{
+        text-align: center;
+    }
+     .soups-cont ul{
+        list-style-type: none;
+        padding-bottom: 20px;
+        margin-left: -70px;
+     }
+     .soups-cont span{
+        margin-left: 10px;
+     }
+
+     .jnd-cont h2{
+        text-align: center;
+    }
+    .jnd-cont ul{
+       list-style-type: none;
+       margin-left: 10px;
+    }
+    .jnd-cont span{
+        margin-left: 10px;
+     }
+
+
+
+     .menulist-bottom{
+        display: flex;
+        margin-top: 20px;
+        text-align: left;
+        flex-direction: column;
+    }
+    
+    .main-meal-cont h2{
+        text-align: center;
+    }
+    .main-meal-cont ul{
+        padding-bottom: 20px;
+        list-style-type: none;
+        margin-left: -40px;
+    }
+    .main-meal-cont span{
+        margin-left: 10px;
+    }
+    
+    .snacks-cont h2{
+        text-align: center;
+    }
+    .snacks-cont ul{
+        padding-bottom: 20px;
+        list-style-type: none;
+        margin-left: -20px;
+
+    }
+    .snacks-cont span{
+        margin-left: 10px;
+    }
+    
+    .others-cont h2{
+        text-align: center;
+    }
+    .others-cont ul{
+        list-style-type: none;
+        margin-left: 25px;
+
+    }
+    .others-cont span{
+        margin-left: 10px;
+    }
+    
+    .back-home-btn{
+        border-radius: 100px;
+        border: 1px solid transparent;
+        padding: 0.5em 1em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #ffffff;
+        cursor: pointer;
+        color: #f3873a;
+        border-color: #f3873a;
+    }
+  
+    .back-home-btn--cont{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}

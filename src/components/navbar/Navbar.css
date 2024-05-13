@@ -1,25 +1,24 @@
 .nav-cont{
-    display: flex;
-    justify-content: center;
+   
     background-color: #fbefe27a;
     align-items: center;
-
-
+    height: 100px;
 }
 
 .nav-txt{
-    width: 60%;
+    width: 40%;
 }
 
 .nav-txt a{
     color: black;
-    padding-left: 20px;
+    margin-left: 20px;
     font-size: 18px;
-    
+    font-weight: 500;
 }
 .nav-txt a:hover{
     color: #f3873a;
     transition: .2s all;
+    /* border-bottom: 3px dotted #f3873a; */
 }
 
 .nav-img{
@@ -33,4 +32,14 @@
    height: 90px;
    border-radius: 100px;
    margin-left: 30px;
+}
+
+@media (max-width:600px){
+
+    .nav-img img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        margin-left: -100px;
+     }
 }

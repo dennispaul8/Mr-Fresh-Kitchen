@@ -21,7 +21,9 @@ export const About =()=>{
                             Tempore ducimus <br />
                             consectetur est unde officiis optio natus alias nam?
                         </p>
-                    <button className='about-btn'>Explore Our Story</button>
+                        <div className="about-btn--cont">
+                             <button className='about-btn'>Explore Our Story</button>
+                        </div>
                 </div>
             </div>
         </>

@@ -15,11 +15,11 @@ export const Hero = () => {
                     some food</h1>
                 <p>Our job is to fill your tummy with delicious food.</p>
                 
-                <div className="hero-button">
+                {/* <div className="hero-button"> */}
                     <Link to='/menulist'>
                     <button className='seemenu-btn'>See Menu</button>
                 </Link>
-                    </div>
+                    {/* </div> */}
             </div>
                 <div className="hero-sec-img--cont">
                      <img className='hero-sec-img' src={hero_img} alt="" />

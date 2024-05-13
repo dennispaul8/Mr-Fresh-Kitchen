@@ -9,48 +9,48 @@ export const Menu = () => {
     const list = [
         {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "French Fries",
+            heading: "Jollof Rice",
             paragraph: "Say goodbye to the hassle of coordinating Say goodbye to the hassle of coordinati",
-            price: "01",
+            
         },
         {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Pasta",
+            heading: "Noodles",
             paragraph: "Create your unique profile as a Say goodbye to the hassle of coordinati",
-            price: "02",
+            
         },
         {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Burger",
+            heading: "Egusi",
             paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
-            price: "03",
+    
         },
         {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Burger",
+            heading: "Pizza",
             paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
-            price: "03",
+    
         },
         {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Burger",
+            heading: "Pancake",
             paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
             price: "03",
         }, {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Burger",
+            heading: "Chapman",
             paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
             price: "03",
         }, {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Burger",
+            heading: "Chicken Kebab",
             paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
             price: "03",
         }, {
             image: "../../../public/mr-fresh-logo.jpeg",
-            heading: "Burger",
+            heading: "Zobo",
             paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
-            price: "03",
+    
         },
     ]
 
