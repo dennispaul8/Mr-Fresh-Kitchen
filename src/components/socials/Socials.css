@@ -37,3 +37,25 @@
         padding-top: 20px;
     }
 }
+
+
+
+@media(max-width:900px){
+
+    .socials-cont{
+        text-align: center;
+        padding-top: 30px;
+        background-color: #fbefe27a;
+        height: 180px;
+    }
+    .socials-cont h2{
+        font-size: 28px;
+    }
+    .social-icons{
+       margin-left: 30px;
+    }
+    .social-icons--cont{
+        margin-left: -30px;
+        padding-top: 20px;
+    }
+}
