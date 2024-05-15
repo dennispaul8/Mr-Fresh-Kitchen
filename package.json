@@ -21,6 +21,7 @@
     "framer-motion": "^11.1.7",
     "lucide-react": "^0.371.0",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
     "react-social-icons": "^6.16.0",

@@ -10,11 +10,25 @@ import { Footer } from './components/footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { MenuList } from './pages/menulist/MenuList.jsx'
 import { LandingPage } from './pages/landingpage/LandingPage.jsx'
+import AnimatedCursor from 'react-animated-cursor'
 
 function App() {
 
   return (
     <>
+    <AnimatedCursor
+     innerSize={10}
+     outerSize={35}
+     innerScale={2}
+     outerScale={1}
+     outerAlpha={0}
+     hasBlendMode={true}
+     innerStyle={{
+       backgroundColor: '#000000'
+     }}
+     outerStyle={{
+       border: '3px solid #e79052'
+     }}/>
       <Routes>
           <Route path="/" element= {<LandingPage/>}/>
           <Route path="/menulist" element= {<MenuList/>}/>
