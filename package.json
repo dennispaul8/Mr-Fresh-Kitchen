@@ -24,6 +24,7 @@
     "react-animated-cursor": "^2.11.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
+    "react-scroll-motion": "^0.3.3",
     "react-social-icons": "^6.16.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7"

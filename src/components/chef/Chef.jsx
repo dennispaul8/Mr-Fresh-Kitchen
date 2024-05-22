@@ -23,6 +23,7 @@ export const Chef = ()=>{
                         <img className='chef-img' src={info.image} alt="" />
                         <h3>{info.name}</h3>
                         <p>{info.dish}</p>
+                        <p>Coming soon</p>
                     </div>
 
                 )}

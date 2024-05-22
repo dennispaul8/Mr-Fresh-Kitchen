@@ -8,48 +8,45 @@ export const Menu = () => {
 
     const list = [
         {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/Jollof-Rice.jpg",
             heading: "Jollof Rice",
-            paragraph: "Say goodbye to the hassle of coordinating Say goodbye to the hassle of coordinati",
+            paragraph: "Spicy West African rice dish with tomatoes, peppers, and various seasonings, a crowd-pleaser.",
             
         },
         {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/noodles.jpg",
             heading: "Noodles",
-            paragraph: "Create your unique profile as a Say goodbye to the hassle of coordinati",
+            paragraph: "Versatile quick-cook meal, often stir-fried or in soups, popular in many cultures.",
             
         },
         {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/egusi-soup.webp",
             heading: "Egusi",
-            paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
+            paragraph: "Nigerian soup made from ground melon seeds, rich and hearty with vegetables and meat.",
     
         },
         {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/pizza.jpg",
             heading: "Pizza",
-            paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
+            paragraph: "Italian classic with dough, sauce, cheese, and assorted toppings, beloved worldwide for its flavor.",
     
         },
         {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/pancake.jpg",
             heading: "Pancake",
-            paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
-            price: "03",
+            paragraph: "Fluffy breakfast favorite made from batter, often topped with syrup, fruits, or other delights.",
         }, {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/chapman.jpg",
             heading: "Chapman",
-            paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
-            price: "03",
+            paragraph: "SNigerian mocktail with a vibrant mix of fruity flavors, perfect for social gatherings.",
         }, {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/chicken-kebab.jpg",
             heading: "Chicken Kebab",
-            paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
-            price: "03",
+            paragraph: "Nigerian hibiscus drink infused with spices, refreshing and packed with health benefits.",
         }, {
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: "../../../public/zobo.jpg",
             heading: "Zobo",
-            paragraph: "Say goodbye to the hassle of coordinati Say goodbye to the hassle of coordinati",
+            paragraph: "Skewered and grilled chicken marinated in spices, a savory and satisfying treat.",
     
         },
     ]
