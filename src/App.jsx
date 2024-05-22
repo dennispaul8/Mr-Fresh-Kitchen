@@ -11,6 +11,7 @@ import { Route, Routes } from 'react-router-dom'
 import { MenuList } from './pages/menulist/MenuList.jsx'
 import { LandingPage } from './pages/landingpage/LandingPage.jsx'
 import AnimatedCursor from 'react-animated-cursor'
+import { OurStory } from './pages/ourStory/OurStory.jsx'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <Routes>
           <Route path="/" element= {<LandingPage/>}/>
           <Route path="/menulist" element= {<MenuList/>}/>
+          <Route path="/our-story" element= {<OurStory/>}/>
         </Routes> 
  
     </>
