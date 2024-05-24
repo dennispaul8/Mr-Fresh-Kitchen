@@ -1,0 +1,12 @@
+
+.our-story--sec{
+    text-align: center;
+    background-color: #fbefe27a;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.our-story--sec h2{
+    font-size: 40px;
+   font-weight: 700;
+}

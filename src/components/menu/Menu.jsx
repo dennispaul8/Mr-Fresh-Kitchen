@@ -68,7 +68,10 @@ export const Menu = () => {
                     {list.map((info, index) =>
 
                         <div key={index} className='menu-card'>
-                            <img className='menu-img' src={info.image} alt="" />
+                            <div className="menu-img--cont">
+                            <img className="menu-img" src={info.image} alt="" />
+
+                            </div>
                             <h3>{info.heading}</h3>
                             <p>{info.paragraph}</p>
                             <p>{info.price}</p>
@@ -77,12 +80,9 @@ export const Menu = () => {
                     )}
                 </div>
 
-                
-                <button className='seemore-btn' onClick={() => {
-                    setTimeout(() => {
-                        navigation.navigate('/menulist');
-                    }, 2000);
-                }}>See More</button>
+                <Link to='/our-story'>
+                            <button className='seemore-btn'>See More</button>
+                        </Link>
 
 
             </div>

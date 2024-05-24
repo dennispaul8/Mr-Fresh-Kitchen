@@ -4,7 +4,12 @@ export const OurStory=()=>{
 
     return(
         <>
-        <h1>Our Story</h1>
+            <div className="our-story--sec">
+                <h2>Our Story</h2>
+
+                <p><i>COMING SOON</i></p>
+            </div>
+        
         </>
     )
 }
