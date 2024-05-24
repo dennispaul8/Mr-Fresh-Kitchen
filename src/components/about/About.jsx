@@ -22,10 +22,10 @@ export const About = () => {
                     <h2>Simple Way of <br />
                         Eating Delicious</h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-                        Magnam sed est animi voluptatum impedit necessitatibus<br /> quidem doloribus ducimus vitae quod?
-                        Tempore ducimus <br />
-                        consectetur est unde officiis optio natus alias nam?
+                    We offer fresh, locally-sourced ingredients crafted into <br />delicious dishes.
+                    Committed to sustainability and quality, <br />we aim to delight your taste buds
+                    while supporting <br />   our community. 
+                    Taste the difference with us!
                     </p>
                     <div className="about-btn--cont">
                         {/* <button className='about-btn'>Explore Our Story</button> */}

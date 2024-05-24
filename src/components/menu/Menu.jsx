@@ -46,7 +46,7 @@ export const Menu = () => {
         }, {
             image: img6 ,
             heading: "Chapman",
-            paragraph: "SNigerian mocktail with a vibrant mix of fruity flavors, perfect for social gatherings.",
+            paragraph: "Nigerian mocktail with a vibrant mix of fruity flavors, perfect for social gatherings.",
         }, {
             image: img7,
             heading: "Chicken Kebab",
@@ -70,7 +70,6 @@ export const Menu = () => {
                         <div key={index} className='menu-card'>
                             <div className="menu-img--cont">
                             <img className="menu-img" src={info.image} alt="" />
-
                             </div>
                             <h3>{info.heading}</h3>
                             <p>{info.paragraph}</p>

@@ -48,13 +48,13 @@
    transition: .3s  ease-in-out;
 }
 .menu-card h3{
-  margin-top: 20px;
+  margin-top: 40px;
   padding-bottom: 10px;
   font-size: 19px;
 
 }
 .menu-card p{
-    /* margin-top: 20px; */
+    padding: 10px;
     padding-bottom: 10px;
   }
 
@@ -106,12 +106,19 @@
          padding-bottom: 50px;
      }
      
-     .menu-img{
-         height: 100px;
-         width: 100px;
-         border-radius: 100px;
-         margin-top: -50px;
-     }
+    
+     .menu-img--cont{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        margin-top: 3px;
+    }
+    .menu-img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
      .menu-card{
          text-align: center;
          width: 200px;
@@ -123,7 +130,7 @@
      }
     
      .menu-card h3{
-       margin-top: 20px;
+       margin-top:-20px;
        padding-bottom: 10px;
      }
      .menu-card p{
@@ -175,12 +182,19 @@
          padding-bottom: 50px;
      }
      
-     .menu-img{
-         height: 100px;
-         width: 100px;
-         border-radius: 100px;
-         margin-top: -50px;
-     }
+     
+     .menu-img--cont{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        margin-top: 3px;
+    }
+    .menu-img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
      .menu-card{
          text-align: center;
          width: 200px;
@@ -244,12 +258,18 @@
          gap: 10px;
      }
      
-     .menu-img{
-         height: 100px;
-         width: 100px;
-         border-radius: 100px;
-         margin-top: -50px;
-     }
+     .menu-img--cont{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        margin-top: -55px;
+    }
+    .menu-img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
      .menu-card{
          text-align: center;
          width: 200px;
@@ -261,7 +281,7 @@
      }
     
      .menu-card h3{
-       margin-top: 20px;
+       /* margin-top: 20px; */
        padding-bottom: 10px;
        font-size: 20px;
      }
