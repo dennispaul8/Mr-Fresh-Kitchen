@@ -50,11 +50,11 @@ export const Menu = () => {
         }, {
             image: img7,
             heading: "Chicken Kebab",
-            paragraph: "Nigerian hibiscus drink infused with spices, refreshing and packed with health benefits.",
+            paragraph: "Skewered and grilled chicken marinated in spices, a savory and satisfying treat.",
         }, {
             image: img8 ,
             heading: "Zobo",
-            paragraph: "Skewered and grilled chicken marinated in spices, a savory and satisfying treat.",
+            paragraph: "Nigerian hibiscus drink infused with spices, refreshing and packed with health benefits.",
     
         },
     ]

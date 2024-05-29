@@ -1,11 +1,11 @@
 import './Chef.css'
-
+import img from '../../../public/mr-fresh-logo.jpeg'
 
 export const Chef = ()=>{
 
     const list = [
         {   
-            image: "../../../public/mr-fresh-logo.jpeg",
+            image: img,
             name: "Samson Guy",
             dish:"African Dish",
         }
