@@ -22,9 +22,9 @@ export const About = () => {
                     <h2>Simple Way of <br />
                         Eating Delicious</h2>
                     <p>
-                    We offer fresh, locally-sourced ingredients crafted into <br />delicious dishes.
-                    Committed to sustainability and quality, <br />we aim to delight your taste buds
-                    while supporting <br />   our community. 
+                    We offer fresh, locally-sourced ingredients crafted into delicious dishes.
+                    Committed to sustainability and quality, we aim to delight your taste buds
+                    while supporting    our community. 
                     Taste the difference with us!
                     </p>
                     <div className="about-btn--cont">
