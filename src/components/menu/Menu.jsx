@@ -79,7 +79,7 @@ export const Menu = () => {
                     )}
                 </div>
 
-                <Link to='/our-story'>
+                <Link to='/menulist'>
                             <button className='seemore-btn'>See More</button>
                         </Link>
 
